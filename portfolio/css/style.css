@@ -61,11 +61,11 @@ section .heading h2 {
 }
 
 .profile-picture img:hover {
-  -webkit-transform: scale(1.1); /* Safari et Chrome */
-  -moz-transform: scale(1.1); /* Firefox */
-  -ms-transform: scale(1.1); /* Internet Explorer 9 */
-  -o-transform: scale(1.1); /* Opera */
-  transform: scale(1.1);
+  -webkit-transform: scale(1.01); /* Safari et Chrome */
+  -moz-transform: scale(1.01); /* Firefox */
+  -ms-transform: scale(1.01); /* Internet Explorer 9 */
+  -o-transform: scale(1.01); /* Opera */
+  transform: scale(1.01);
 }
 
 .heading {
@@ -196,10 +196,11 @@ section .heading h2 {
   color: #4da2ec;
 }
 
-/* --- Portfolio part --- */
+/* --- Projects part --- */
 
 #portfolio {
   background: #333;
+  height: 800px;
 }
 
 #portfolio .heading_portfolio .disp {
@@ -208,36 +209,13 @@ section .heading h2 {
   padding-top: 10px;
 }
 
-#portfolio .carousel,
-#portfolio img {
-  max-width: 630px;
-  float: left;
-}
-
-#portfolio .carousel-item img {
-  background-size: contain;
-  max-height: 420px;
-  position: center;
-  display: block;
-  margin: 15px auto;
-}
-
-#portfolio a img {
-  margin: 15px auto;
-}
-
 #portfolio h4,
 #portfolio p {
   text-align: center;
 }
 
-#portfolio h4 {
-  padding-top: 200px;
-}
-
 .article_project {
-  color: #ccc;
-  border-radius: 15px;
+  /* color: #ccc; */
   -webkit-transition: all 0.5s ease; /* Safari et Chrome */
   -moz-transition: all 0.5s ease; /* Firefox */
   -ms-transition: all 0.5s ease; /* Internet Explorer 9 */
@@ -247,11 +225,11 @@ section .heading h2 {
 
 .article_project:hover {
   background: url("../images/bg.png");
-  -webkit-transform: scale(1.05); /* Safari et Chrome */
-  -moz-transform: scale(1.05); /* Firefox */
-  -ms-transform: scale(1.05); /* Internet Explorer 9 */
-  -o-transform: scale(1.05); /* Opera */
-  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.article_project .card-img-top .carousel-inner img {
+  width: 100%;
 }
 
 /* --- Contact part --- */
@@ -268,14 +246,6 @@ section .heading h2 {
   -ms-transition: all 0.5s ease-in-out; /* Internet Explorer 9 */
   -o-transition: all 0.5s ease-in-out; /* Opera */
   transition: all 0.5s ease-in-out;
-}
-
-.logo_position img:hover {
-  -webkit-transform: scale(1.2); /* Safari et Chrome */
-  -moz-transform: scale(1.2); /* Firefox */
-  -ms-transform: scale(1.2); /* Internet Explorer 9 */
-  -o-transform: scale(1.2); /* Opera */
-  transform: scale(1.2);
 }
 
 .border_contact {

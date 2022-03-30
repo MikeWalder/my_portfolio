@@ -131,11 +131,74 @@ require 'navbar.php';
                     Réalisations et projets</h1>
             </div>
             <div class="row mb-5">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 pb-3 article_project">
-                    <div id="carouselExampleInterval2" class="carousel slide pt-md-3 pt-3 pr-md-3 d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
+                <div class="col-md-1"></div>
+                <div class="card-deck col-md-10">
+
+                    <div class="card col-md-3 article_project m-3 bg-secondary" style="height: 500px;">
+                        <img class="card-img-top img-fluid rounded pt-3" src="images/music.jpg" alt="Card image cap" style="height: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-3 article_project m-3 bg-secondary">
+                        <div class="card-img-top rounded">
+                            <div id="carouselProject1" class="carousel slide d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
+                                <div class="carousel-inner" style="height: 300px;">
+                                    <div class="carousel-item active" data-interval="4000">
+                                        <img src="images/burger.jpg" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                    <div class="carousel-item" data-interval="4000">
+                                        <img src="images/burger2.jpg" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                    <div class="carousel-item" data-interval="4000">
+                                        <img src="images/burger3.jpg" alt="Station Davis Vantage Pro 2" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselProject1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselProject1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Burger selection</h5>
+                            <p class="card-text">Commande en ligne pour un fast food</p>
+                            <p class="card-text">Partie user et admin du site</p>
+                            <p class="card-text"><small class="text-muted">Bootstrap 4, sal.js, HTML, CSS</small></p>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-3 article_project m-3 bg-secondary">
+                        <img class="card-img-top img-fluid rounded pt-3" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title mx-auto">Card title</div>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-3 article_project m-3 bg-secondary">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="col-md-4 pb-3 article_project">
+                    <div id="carouselProject1" class="carousel slide pt-md-3 pt-3 pr-md-3 d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-interval="4500">
+                            <div class="carousel-item active" data-interval="4000">
                                 <img src="images/burger.jpg" alt="Website">
                             </div>
                             <div class="carousel-item" data-interval="4000">
@@ -145,28 +208,24 @@ require 'navbar.php';
                                 <img src="images/burger3.jpg" alt="Station Davis Vantage Pro 2">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleInterval2" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselProject1" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleInterval2" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselProject1" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                    <h4 class="pl-md-3 pt-5 pb-md-3 font-weight-bold" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
+                    <h4 class="pl-md-3 pt-5 pb-md-3 pr-md-3 font-weight-bold" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
                         Site de fast-food</h4>
                     <div data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
                         <p class="pl-md-3 pt-3">Développé avec les langages HTML5/CSS3, PHP/SQL et le framework Bootstrap 4.</p>
                         <p class="pl-md-3 pt-1">Réalisé dans le cadre d'une formation en autodidacte.</p>
                     </div>
-                </div>
-                <div class="col-md-2 pb-3"></div>
-            </div>
+                </div> -->
 
-            <div class="row mb-5">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 pb-3 article_project ">
+                <!-- <div class="col-md-4 pb-3 article_project ">
                     <a href="" target="_blank"><img src="images/music.jpg" alt="Site burgers" class="img-fluid pt-md-3 pr-md-3 d-none d-md-block" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
                     </a>
                     <h4 class="pl-md-3 pt-5 pb-md-3 font-weight-bold" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
@@ -175,14 +234,13 @@ require 'navbar.php';
                         <p class="pl-md-3 pt-3">Développé avec HTML5/CSS3, jQuery, PHP/SQL et le framework Bootstrap 4.</p>
                         <p class="pl-md-3 pt-1">Réalisé dans le cadre de la formation chez Web Force 3.</p>
                     </div>
-                </div>
-                <div class="col-md-2 pb-3"></div>
+                </div> -->
+
             </div>
 
-            <div class="row mb-5">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 pb-3 article_project">
-                    <!-- <a href="" target="_blank"><img src="images/facebook-share.png" alt="Facebook share" class="img-fluid pt-md-3 pr-md-3"></a> -->
+            <!-- <div class="row mb-5">
+                <div class="col-md-1"></div>
+                <div class="col-md-4 pb-3 article_project">
 
                     <div id="carouselExampleInterval" class="carousel slide pt-md-3 pr-md-3" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
                         <div class="carousel-inner d-none d-md-block">
@@ -205,7 +263,7 @@ require 'navbar.php';
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                    <h4 class="pl-md-3 pt-5 pb-md-3 font-weight-bold" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
+                    <h4 class="pl-md-3 pt-5 pb-md-3 font-weight-bold">
                         Site Web météorologique (janvier - mai 2013)</h4>
                     <div data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
                         <p class="pl-md-3 pt-3">Développé avec les langages HTML5/CSS3 et PHP5/SQL dans le cadre d'un projet de Master 1. </p>
@@ -214,7 +272,7 @@ require 'navbar.php';
                     </div>
                 </div>
                 <div class="col-md-2 pb-3"></div>
-            </div>
+            </div> -->
         </div>
     </section>
 
