@@ -134,8 +134,8 @@ require 'navbar.php';
                 <div class="col-md-1"></div>
                 <div class="card-deck col-md-10">
 
-                    <div class="card col-md-3 article_project m-3 bg-secondary" style="height: 500px;">
-                        <img class="card-img-top img-fluid rounded pt-3" src="images/music.jpg" alt="Card image cap" style="height: 300px;">
+                    <div class="card col-md-4 col-lg-3 article_project m-2 p-0 bg-secondary" >
+                        <img class="card-img-top img-fluid rounded pt-3" src="images/VueJsCardShopping.PNG" alt="Card image cap" style="height: 300px;">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -143,7 +143,7 @@ require 'navbar.php';
                         </div>
                     </div>
 
-                    <div class="card col-md-3 article_project m-3 bg-secondary">
+                    <div class="card col-md-4 col-lg-3 article_project m-2 bg-secondary">
                         <div class="card-img-top rounded">
                             <div id="carouselProject1" class="carousel slide d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
                                 <div class="carousel-inner" style="height: 300px;">
@@ -176,21 +176,70 @@ require 'navbar.php';
                         </div>
                     </div>
 
-                    <div class="card col-md-3 article_project m-3 bg-secondary">
-                        <img class="card-img-top img-fluid rounded pt-3" src="..." alt="Card image cap">
+                    <div class="card col-md-4 col-lg-3 article_project m-2 bg-secondary">
+                        <div class="card-img-top rounded">
+                            <div id="carouselProject2" class="carousel slide d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
+                                <div class="carousel-inner" style="height: 300px;">
+                                    <div class="carousel-item active" data-interval="4000">
+                                        <img src="images/burger.jpg" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                    <div class="carousel-item" data-interval="4000">
+                                        <img src="images/burger2.jpg" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                    <div class="carousel-item" data-interval="4000">
+                                        <img src="images/burger3.jpg" alt="Station Davis Vantage Pro 2" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselProject2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselProject2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
                         <div class="card-body">
-                            <div class="card-title mx-auto">Card title</div>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title text-center">Burger selection</h5>
+                            <p class="card-text">Commande en ligne pour un fast food</p>
+                            <p class="card-text">Partie user et admin du site</p>
+                            <p class="card-text"><small class="text-muted">Vue JS, Javascript, Bootstrap, HTML, CSS</small></p>
                         </div>
                     </div>
 
-                    <div class="card col-md-3 article_project m-3 bg-secondary">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card col-md-4 col-lg-3 article_project m-2 bg-secondary">
+                        <div class="card-img-top rounded">
+                            <div id="carouselProject1" class="carousel slide d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
+                                <div class="carousel-inner" style="height: 300px;">
+                                    <div class="carousel-item active" data-interval="4000">
+                                        <img src="images/burger.jpg" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                    <div class="carousel-item" data-interval="4000">
+                                        <img src="images/burger2.jpg" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                    <div class="carousel-item" data-interval="4000">
+                                        <img src="images/burger3.jpg" alt="Station Davis Vantage Pro 2" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselProject1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselProject1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title text-center">Image galery App</h5>
+                            <p class="card-text">Galerie d'images perso</p>
+                            <p class="card-text">Tri, modification, suppression des images</p>
+                            <p class="card-text">Dashboard avec graphes</p>
+                            <p class="card-text"><small class="text-muted">Bootstrap 5, chart.js, HTML, CSS, PHP, SQL</small></p>
                         </div>
                     </div>
 
