@@ -226,6 +226,12 @@ section .heading h2 {
 .article_project:hover {
   background: url("../images/bg.png");
   opacity: 0.8;
+
+}
+
+.article_project:hover .card-img-top{
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
 
 .article_project .card-img-top .carousel-inner img {
@@ -265,6 +271,11 @@ section .heading h2 {
   color: #fff;
 }
 
+.card-body {
+  overflow: scroll;
+  max-height: 250px;
+}
+
 /* --- Adaptative parts --- */
 
 @media screen and (max-width: 640px) {
@@ -282,19 +293,8 @@ section .heading h2 {
   }
 }
 
-@media screen and (max-width: 950px) {
-  .article_project:hover {
-    background: #333;
-    -webkit-transform: none; /* Safari et Chrome */
-    -moz-transform: none; /* Firefox */
-    -ms-transform: none; /* Internet Explorer 9 */
-    -o-transform: none; /* Opera */
-    transform: none;
-  }
-}
-
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .logo_nav {
     display: none;
   }
-}
+} */

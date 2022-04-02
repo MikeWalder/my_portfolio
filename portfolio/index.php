@@ -131,30 +131,18 @@ require 'navbar.php';
                     Réalisations et projets</h1>
             </div>
             <div class="row mb-5">
-                <div class="col-md-1"></div>
-                <div class="card-deck col-md-10">
+                <div class="d-none d-sm-block col-md-1"></div>
+                <div class="card-deck col-md-12 col-lg-10">
 
-                    <div class="card col-md-4 col-lg-3 article_project m-2 p-0 bg-secondary" >
-                        <img class="card-img-top img-fluid rounded pt-3" src="images/VueJsCardShopping.PNG" alt="Card image cap" style="height: 300px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-
-                    <div class="card col-md-4 col-lg-3 article_project m-2 bg-secondary">
-                        <div class="card-img-top rounded">
+                    <div class="card col-md-6 col-lg-4 article_project m-3 bg-secondary">
+                        <div class="card-img-top rounded pt-2">
                             <div id="carouselProject1" class="carousel slide d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
                                 <div class="carousel-inner" style="height: 300px;">
                                     <div class="carousel-item active" data-interval="4000">
-                                        <img src="images/burger.jpg" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
+                                        <img src="images/todolist1.jpg" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
                                     </div>
                                     <div class="carousel-item" data-interval="4000">
-                                        <img src="images/burger2.jpg" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
-                                    </div>
-                                    <div class="carousel-item" data-interval="4000">
-                                        <img src="images/burger3.jpg" alt="Station Davis Vantage Pro 2" class="img-fluid" style="width: 100%; height: 300px;">
+                                        <img src="images/todolist2.jpg" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselProject1" role="button" data-slide="prev">
@@ -168,16 +156,16 @@ require 'navbar.php';
                             </div>
                         </div>
 
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Burger selection</h5>
-                            <p class="card-text">Commande en ligne pour un fast food</p>
-                            <p class="card-text">Partie user et admin du site</p>
-                            <p class="card-text"><small class="text-muted">Bootstrap 4, sal.js, HTML, CSS</small></p>
+                        <div class="card-body text-white">
+                            <h5 class="card-title text-center">To Do List</h5>
+                            <p class="card-text">Ajout, modification et suppression de tâches en BDD</p>
+                            <p class="card-text">Notation de l'urgence de chaque tâche</p>
+                            <p class="card-text"><small class="text-muted">Bootstrap 4, animate CSS, HTML, PHP, SQL</small></p>
                         </div>
                     </div>
 
-                    <div class="card col-md-4 col-lg-3 article_project m-2 bg-secondary">
-                        <div class="card-img-top rounded">
+                    <div class="card col-md-6 col-lg-4 article_project m-3 bg-secondary">
+                        <div class="card-img-top rounded pt-2">
                             <div id="carouselProject2" class="carousel slide d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
                                 <div class="carousel-inner" style="height: 300px;">
                                     <div class="carousel-item active" data-interval="4000">
@@ -201,127 +189,81 @@ require 'navbar.php';
                             </div>
                         </div>
 
-                        <div class="card-body">
+                        <div class="card-body text-white">
                             <h5 class="card-title text-center">Burger selection</h5>
                             <p class="card-text">Commande en ligne pour un fast food</p>
                             <p class="card-text">Partie user et admin du site</p>
-                            <p class="card-text"><small class="text-muted">Vue JS, Javascript, Bootstrap, HTML, CSS</small></p>
+                            <p class="card-text"><small class="text-muted">Bootstrap 4, sal.js, HTML, CSS</small></p>
                         </div>
                     </div>
 
-                    <div class="card col-md-4 col-lg-3 article_project m-2 bg-secondary">
-                        <div class="card-img-top rounded">
-                            <div id="carouselProject1" class="carousel slide d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
+                    <div class="card col-md-6 col-lg-4 article_project m-3 bg-secondary">
+                        <div class="card-img-top rounded pt-2">
+                            <div id="carouselProject3" class="carousel slide d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
                                 <div class="carousel-inner" style="height: 300px;">
                                     <div class="carousel-item active" data-interval="4000">
-                                        <img src="images/burger.jpg" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
+                                        <img src="images/img-selection.jpg" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
                                     </div>
                                     <div class="carousel-item" data-interval="4000">
-                                        <img src="images/burger2.jpg" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
+                                        <img src="images/img-modification.jpg" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
                                     </div>
                                     <div class="carousel-item" data-interval="4000">
-                                        <img src="images/burger3.jpg" alt="Station Davis Vantage Pro 2" class="img-fluid" style="width: 100%; height: 300px;">
+                                        <img src="images/img-galery-dashboard.jpg" alt="Station Davis Vantage Pro 2" class="img-fluid" style="width: 100%; height: 300px;">
                                     </div>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselProject1" role="button" data-slide="prev">
+                                <a class="carousel-control-prev" href="#carouselProject3" role="button" data-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
                                 </a>
-                                <a class="carousel-control-next" href="#carouselProject1" role="button" data-slide="next">
+                                <a class="carousel-control-next" href="#carouselProject3" role="button" data-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                                 </a>
                             </div>
                         </div>
 
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Image galery App</h5>
-                            <p class="card-text">Galerie d'images perso</p>
-                            <p class="card-text">Tri, modification, suppression des images</p>
-                            <p class="card-text">Dashboard avec graphes</p>
-                            <p class="card-text"><small class="text-muted">Bootstrap 5, chart.js, HTML, CSS, PHP, SQL</small></p>
+                        <div class="card-body text-white">
+                            <h5 class="card-title text-center">Image Galery</h5>
+                            <p class="card-text">Ajouter, modifier, supprimer, trier images</p>
+                            <p class="card-text">Dashboard (graphes + calendrier)</p>
+                            <p class="card-text"><small class="text-muted">Bootstrap 4, animate CSS, HTML, CSS, PHP, SQL</small></p>
                         </div>
                     </div>
 
+                    <div class="card col-md-6 col-lg-4 article_project m-3 bg-secondary">
+                        <div class="card-img-top rounded pt-2">
+                            <div id="carouselProject4" class="carousel slide d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
+                                <div class="carousel-inner" style="height: 300px;">
+                                    <div class="carousel-item active" data-interval="4000">
+                                        <img src="images/API_ygo_1.png" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                    <div class="carousel-item" data-interval="4000">
+                                        <img src="images/API_ygo_2.png" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                    <div class="carousel-item" data-interval="4000">
+                                        <img src="images/API_ygo_3.png" alt="Station Davis Vantage Pro 2" class="img-fluid" style="width: 100%; height: 300px;">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselProject4" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselProject4" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-body text-white">
+                            <h5 class="card-title text-center">API Yu-Gi-Oh</h5>
+                            <p class="card-text">Banque de données des cartes</p>
+                            <p class="card-text">Tri et détail de chaque carte (appels d'API)</p>
+                            <p class="card-text"><small class="text-muted">Bootstrap 5, Javascript, HTML, CSS</small></p>
+                        </div>
+                    </div>
                 </div>
-                <!-- <div class="col-md-4 pb-3 article_project">
-                    <div id="carouselProject1" class="carousel slide pt-md-3 pt-3 pr-md-3 d-none d-md-block" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-interval="4000">
-                                <img src="images/burger.jpg" alt="Website">
-                            </div>
-                            <div class="carousel-item" data-interval="4000">
-                                <img src="images/burger2.jpg" alt="Arduino Uno">
-                            </div>
-                            <div class="carousel-item" data-interval="4000">
-                                <img src="images/burger3.jpg" alt="Station Davis Vantage Pro 2">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselProject1" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselProject1" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                    <h4 class="pl-md-3 pt-5 pb-md-3 pr-md-3 font-weight-bold" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
-                        Site de fast-food</h4>
-                    <div data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
-                        <p class="pl-md-3 pt-3">Développé avec les langages HTML5/CSS3, PHP/SQL et le framework Bootstrap 4.</p>
-                        <p class="pl-md-3 pt-1">Réalisé dans le cadre d'une formation en autodidacte.</p>
-                    </div>
-                </div> -->
-
-                <!-- <div class="col-md-4 pb-3 article_project ">
-                    <a href="" target="_blank"><img src="images/music.jpg" alt="Site burgers" class="img-fluid pt-md-3 pr-md-3 d-none d-md-block" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
-                    </a>
-                    <h4 class="pl-md-3 pt-5 pb-md-3 font-weight-bold" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
-                        Plateforme de musiques en ligne</h4>
-                    <div data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
-                        <p class="pl-md-3 pt-3">Développé avec HTML5/CSS3, jQuery, PHP/SQL et le framework Bootstrap 4.</p>
-                        <p class="pl-md-3 pt-1">Réalisé dans le cadre de la formation chez Web Force 3.</p>
-                    </div>
-                </div> -->
-
             </div>
-
-            <!-- <div class="row mb-5">
-                <div class="col-md-1"></div>
-                <div class="col-md-4 pb-3 article_project">
-
-                    <div id="carouselExampleInterval" class="carousel slide pt-md-3 pr-md-3" data-ride="carousel" data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
-                        <div class="carousel-inner d-none d-md-block">
-                            <div class="carousel-item active" data-interval="4000">
-                                <img src="images/meteo_website.png" alt="Website">
-                            </div>
-                            <div class="carousel-item" data-interval="4000">
-                                <img src="images/arduino-uno.jpg" class="" alt="Arduino Uno">
-                            </div>
-                            <div class="carousel-item" data-interval="4000">
-                                <img src="images/vantage_pro_2.jpg" alt="Station Davis Vantage Pro 2">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                    <h4 class="pl-md-3 pt-5 pb-md-3 font-weight-bold">
-                        Site Web météorologique (janvier - mai 2013)</h4>
-                    <div data-sal-duration="600" data-sal="fade" data-sal-delay="200" data-sal-easing="ease">
-                        <p class="pl-md-3 pt-3">Développé avec les langages HTML5/CSS3 et PHP5/SQL dans le cadre d'un projet de Master 1. </p>
-                        <p class="pl-md-3 pt-1">Un microcontrôleur (Arduino) récupère des données d'une station météorologique, qui sont stockées
-                            dans une base de données avant d'être consultables sur le site Web.</p>
-                    </div>
-                </div>
-                <div class="col-md-2 pb-3"></div>
-            </div> -->
         </div>
     </section>
 
