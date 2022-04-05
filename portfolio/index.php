@@ -5,41 +5,42 @@ require 'navbar.php';
 
 <div data-spy="scroll" data-target="#navbar-scroll1" data-offset="0">
     <section id="accueil" class="container-fluid">
-        <div class="profile-picture pb-md-5">
-            <img src="images/logo.png" alt="My picture" class="img-circle pb-md-5" data-sal-duration="500" data-sal="slide-down" data-sal-delay="300" data-sal-easing="ease">
+        <div class="profile-picture pb-md-3">
+            <img src="images/logo.png" alt="My picture" class="img-circle" data-sal-duration="500" data-sal="slide-down" data-sal-delay="300" data-sal-easing="ease">
         </div>
-        <div class="heading d-none d-sm-block">
-            <h3 class="pt-md-3 pt-sm-5" data-sal-duration="800" data-sal="slide-down" data-sal-delay="400" data-sal-easing="ease">
+        <div class="heading mt-3">
+            <h3 class="pt-3" data-sal-duration="800" data-sal="slide-down" data-sal-delay="400" data-sal-easing="ease">
                 Mike Walder</h3>
-            <h1 class="pt-md-5 d-none d-sm-block" data-sal-duration="800" data-sal="slide-up" data-sal-delay="800" data-sal-easing="ease">
+            <h1 class="pt-md-3 d-none d-sm-block" data-sal-duration="800" data-sal="slide-up" data-sal-delay="800" data-sal-easing="ease">
                 Développeur Web et mobile</h1>
         </div>
         <nav class="navbar anim_navbar d-none d-sm-block pt-md-3">
             <ul class="navbar-nav mx-auto" data-sal-duration="800" data-sal="slide-up" data-sal-delay="1000" data-sal-easing="ease">
                 <li class="nav-item">
-                    <a class="nav-link nav_border h3" href="#about">A propos</a>
+                    <a class="nav-link nav_border h4" href="#about">A propos</a>
                 </li>
                 <li class="nav-item mt-md-3">
-                    <a class="nav-link nav_border h3" href="#portfolio">Portfolio</a>
+                    <a class="nav-link nav_border h4" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item mt-md-3">
-                    <a class="nav-link nav_border h3" href="#contact">Contact</a>
+                    <a class="nav-link nav_border h4" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item mt-md-3">
-                    <a class="nav-link nav_border h3" href="CV_2022.pdf" title="Télécharger mon CV" target="_blank"><i class="fas fa-lg fa-file-pdf"></i>CV</a>
+                    <a class="nav-link nav_border h4" href="CV_2022.pdf" title="Télécharger mon CV" target="_blank"><i class="fas fa-lg fa-file-pdf"></i>CV</a>
                 </li>
             </ul>
         </nav>
+
     </section>
 
     <section id="about">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-1"></div>
-                <div class="col-md-5 border_style_left pr-md-5 pt-md-3 pb-md-4">
-                    <h1 class="font-weight-bold pb-md-3" data-sal-duration="600" data-sal="slide-right" data-sal-delay="200" data-sal-easing="ease">
+                <div class="col-md-5 border_style_left pr-md-5 pt-md-2 pb-md-4">
+                    <h1 class="font-weight-bold pb-md-3 text-dark" data-sal-duration="600" data-sal="slide-right" data-sal-delay="200" data-sal-easing="ease">
                         À propos</h1>
-                    <div data-sal-duration="600" data-sal="slide-right" data-sal-delay="200" data-sal-easing="ease">
+                    <!-- <div class="text-info" data-sal-duration="600" data-sal="slide-right" data-sal-delay="200" data-sal-easing="ease"> -->
 
                         <p>Mike Walder, 33 ans, habite à Saint Priest.</p>
                         <p>Issu du secteur industriel, je suis actuellement en formation en Développement web et mobile dans la démarche d'une reconversion professionnelle.</p>
@@ -50,14 +51,14 @@ require 'navbar.php';
                         <p>Fort de cette expérience et de mon habitude de travailler en autodidacte, j'ai ensuite développé des projets web modestes tout en continuant de travailler dans l'industrie.</p>
                         <p class="pb-md-3">Je suis désormais à la recherche d'une opportunité en PHP / Symfony afin d'utiliser et développer mes compétences en développement Web dans le cadre
                             professionnel et le plus important, vous délivrer un travail soigné et des pistes d'améliorations pour les projets que vous me confierez.</p>
-                    </div>
+                    <!-- </div> -->
                 </div>
 
                 <div class="col-md-5 border_style_right pt-md-2">
                     <h2 class="font-weight-bold pt-md-3 pb-md-5" data-sal-duration="600" data-sal="slide-left" data-sal-delay="200" data-sal-easing="ease">
                         <i class="fas fa-user-graduate"></i> Formations
                     </h2>
-                    <table class="table table-striped" data-sal-duration="600" data-sal="slide-left" data-sal-delay="200" data-sal-easing="ease">
+                    <table class="table table-striped">
                         <tbody>
                             <tr>
                                 <td><i>2020</i></td>
@@ -130,8 +131,149 @@ require 'navbar.php';
                 <h1 class="pb-md-5 disp" data-sal-duration="600" data-sal="slide-down" data-sal-delay="200" data-sal-easing="ease">
                     Réalisations et projets</h1>
             </div>
-            <div class="row mb-5">
-                <div class="d-none d-sm-block col-md-1"></div>
+            <div class="row h-100">
+                <div class="d-none d-md-block col-md-1"></div>
+                <div class="col-12 col-md-10">
+                    <div class="row">
+                        <div class="col-12 col-md-6 mt-4">
+                            <div class="card bg-secondary" style="height: 500px;">
+                                <div class="card-img-top rounded">
+                                    <div id="carouselProject1" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner border-top" style="height: 300px;">
+                                            <div class="carousel-item active" data-interval="4000">
+                                                <img src="images/todolist1.jpg" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
+                                            </div>
+                                            <div class="carousel-item" data-interval="4000">
+                                                <img src="images/todolist2.jpg" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselProject1" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselProject1" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body text-white d-none d-md-block m-0">
+                                    <h5 class="card-title text-center">To Do List</h5>
+                                    <p class="card-text">Ajout, modification, suppression de tâches en BDD<br>
+                                    Notation de chaque tâche</p>
+                                    <p class="card-text text-white"><small>Bootstrap 4, animate CSS, HTML, PHP, SQL</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4">
+                            <div class="card bg-secondary" style="height: 500px;">
+                                <div class="card-img-top rounded">
+                                    <div id="carouselProject2" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner border-top" style="height: 300px;">
+                                            <div class="carousel-item active" data-interval="4000">
+                                                <img src="images/burger.jpg" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
+                                            </div>
+                                            <div class="carousel-item" data-interval="4000">
+                                                <img src="images/burger2.jpg" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
+                                            </div>
+                                            <div class="carousel-item" data-interval="4000">
+                                                <img src="images/burger3.jpg" alt="Station Davis Vantage Pro 2" class="img-fluid" style="width: 100%; height: 300px;">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselProject2" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselProject2" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body text-white">
+                                    <h5 class="card-title text-center">Burger selection</h5>
+                                    <p class="card-text">Commande en ligne pour un fast food<br>
+                                    Partie user et admin du site</p>
+                                    <p class="card-text text-white"><small>Bootstrap 4, sal.js, HTML, CSS</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col-12 col-md-6 mt-4">
+                            <div class="card bg-secondary" style="height: 500px;">
+                                <div class="card-img-top rounded">
+                                    <div id="carouselProject3" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner border-top" style="height: 300px;">
+                                            <div class="carousel-item active" data-interval="4000">
+                                                <img src="images/img-selection.jpg" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
+                                            </div>
+                                            <div class="carousel-item" data-interval="4000">
+                                                <img src="images/img-modification.jpg" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
+                                            </div>
+                                            <div class="carousel-item" data-interval="4000">
+                                                <img src="images/img-galery-dashboard.jpg" alt="Station Davis Vantage Pro 2" class="img-fluid" style="width: 100%; height: 300px;">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselProject3" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselProject3" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body text-white">
+                                    <h5 class="card-title text-center">Image Galery</h5>
+                                    <p class="card-text">Ajouter, modifier, supprimer, trier images<br>
+                                    Dashboard (graphes + calendrier)</p>
+                                    <p class="card-text text-white"><small>Bootstrap 4, animate CSS, HTML, CSS, PHP, SQL</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4">
+                            <div class="card bg-secondary" style="height: 500px;">
+                                <div class="card-img-top rounded">
+                                    <div id="carouselProject4" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner border-top" style="height: 300px;">
+                                        <div class="carousel-item active" data-interval="4000">
+                                            <img src="images/API_ygo_1.png" alt="Website" class="img-fluid" style="width: 100%; height: 300px;">
+                                        </div>
+                                        <div class="carousel-item" data-interval="4000">
+                                            <img src="images/API_ygo_2.png" alt="Arduino Uno" class="img-fluid" style="width: 100%; height: 300px;">
+                                        </div>
+                                        <div class="carousel-item" data-interval="4000">
+                                            <img src="images/API_ygo_3.png" alt="Station Davis Vantage Pro 2" class="img-fluid" style="width: 100%; height: 300px;">
+                                        </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselProject4" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselProject4" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body text-white">
+                                    <h5 class="card-title text-center">API Yu-Gi-Oh</h5>
+                                    <p class="card-text">Banque de données des cartes<br>
+                                    Tri et détail de chaque carte (appels d'API)</p>
+                                    <p class="card-text text-white"><small>Bootstrap 5, Javascript, HTML, CSS</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
+
+
+                <!-- <div class="d-none d-md-block col-md-1"></div>
                 <div class="card-deck col-md-12 col-lg-10">
 
                     <div class="card col-md-6 col-lg-4 article_project m-3 bg-secondary">
@@ -262,7 +404,7 @@ require 'navbar.php';
                             <p class="card-text"><small class="text-muted">Bootstrap 5, Javascript, HTML, CSS</small></p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
