@@ -213,6 +213,10 @@ section .heading h2 {
   text-align: center;
 }
 
+.card-body:hover {
+  background: orange !important;
+}
+
 .article_project {
   /* color: #ccc; */
   -webkit-transition: all 0.5s ease-in-out; /* Safari et Chrome */
@@ -281,14 +285,6 @@ section .heading h2 {
   #about .quality {
     padding-left: 10vw;
   }
-  .article_project h4,
-  .article_project p {
-    text-align: center;
-  }
 }
 
-/* @media screen and (max-width: 1200px) {
-  .logo_nav {
-    display: none;
-  }
-} */
+
