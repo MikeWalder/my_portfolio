@@ -213,10 +213,6 @@ section .heading h2 {
   text-align: center;
 }
 
-.card-body:hover {
-  background: orange !important;
-}
-
 .article_project {
   /* color: #ccc; */
   -webkit-transition: all 0.5s ease-in-out; /* Safari et Chrome */
@@ -229,16 +225,7 @@ section .heading h2 {
 .article_project:hover {
   background: url("../images/bg.png");
   opacity: 0.8;
-  transition: background 0.4s ease-in-out;
-}
-
-.article_project:hover .card-img-top{
-  transform: scale(1.1);
-  transition: all 0.5s ease-in-out;
-}
-
-.article_project .card-img-top .carousel-inner img {
-  width: 100%;
+  transition: all 0.4s ease-in-out;
 }
 
 /* --- Contact part --- */
