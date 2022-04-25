@@ -19,7 +19,7 @@
 			</li>
 			<li class="nav-item d-none d-lg-block logo_nav">
 				<a class="nav-link pt-2" href="https://github.com/MikeWalder" title="Github" target="_blank">
-					<i class="fab fa-github fa-2x"></i>
+					<i class="fab fa-github-square fa-2x"></i>
 				</a>
 			</li>
 			<li class="nav-item d-none d-lg-block logo_nav">

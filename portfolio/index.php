@@ -17,7 +17,7 @@ require 'navbar.php';
         <nav class="navbar anim_navbar d-none d-sm-block pt-md-3">
             <ul class="navbar-nav mx-auto" data-sal-duration="800" data-sal="slide-up" data-sal-delay="1000" data-sal-easing="ease">
                 <li class="nav-item">
-                    <a class="nav-link nav_border h4" href="#about">A propos</a>
+                    <a class="nav-link nav_border h4" href="#about">À propos</a>
                 </li>
                 <li class="nav-item mt-md-3">
                     <a class="nav-link nav_border h4" href="#portfolio">Portfolio</a>
@@ -39,11 +39,11 @@ require 'navbar.php';
                 <div class="col-md-1"></div>
                 <div class="col-md-5 border_style_left pr-md-5 pt-md-2 pb-md-4">
                     <h1 class="font-weight-bold pb-md-3 text-dark" data-sal-duration="600" data-sal="slide-right" data-sal-delay="200" data-sal-easing="ease">
-                        À propos</h1>
-                    <!-- <div class="text-info" data-sal-duration="600" data-sal="slide-right" data-sal-delay="200" data-sal-easing="ease"> -->
+                        À propos
+                    </h1>
 
-                    <p>Mike Walder, 33 ans, habite à Saint Priest.</p>
-                    <p>Issu du secteur industriel, je suis actuellement en formation en Développement web et mobile dans la démarche d'une reconversion professionnelle.</p>
+                    <p>Je me présente, Mike Walder, 33 ans, diplômé d'un <em>master Mécatronique et énergie</em> à l'Université de Strasbourg.</p>
+                    <p>Issu du secteur industriel, j'ai amorcé en 2020 une formation en développement web et mobile dans le cadre d'une reconversion professionnelle.</p>
                     <p>Depuis plusieurs années, que ce soit pour des projets industriels ou dans le cadre de mes études, j'ai développé des algorithmes et utilisé des outils et technologies
                         informatique pour résoudre des problématiques précises.</p>
                     <p>J'ai notamment réalisé un site web météorologique en reprenant les bases du développement Web en Front et Back End pour répondre à l'objectif
@@ -51,7 +51,7 @@ require 'navbar.php';
                     <p>Fort de cette expérience et de mon habitude de travailler en autodidacte, j'ai ensuite développé des projets web modestes tout en continuant de travailler dans l'industrie.</p>
                     <p class="pb-md-3">Je suis désormais à la recherche d'une opportunité en PHP / Symfony afin d'utiliser et développer mes compétences en développement Web dans le cadre
                         professionnel et le plus important, vous délivrer un travail soigné et des pistes d'améliorations pour les projets que vous me confierez.</p>
-                    <!-- </div> -->
+                    <p>Voici ce que je vous propose : mettre la technologie et mes compétences au service de votre projet, dans le but d'atteindre vos objectifs personnels en communiquant de façon fluide et efficace.</p>
                 </div>
 
                 <div class="col-md-5 border_style_right pt-md-2">
@@ -162,7 +162,7 @@ require 'navbar.php';
                                     <div class="text-center font-weight-bold h4 p-0 m-0">To Do List</div>
                                     <p class="card-text text-white h6"><small>Bootstrap 4, animate CSS, HTML, PHP, SQL</small></p>
                                     <div class="row text-center">
-                                        <a class="card-github-link pt-2 col-6" href="" title="Github" target="_blank">
+                                        <a class="card-github-link pt-2 col-6" href="" title="Repo Github" target="_blank">
                                             <i class="fab fa-github fa-2x"></i>
                                         </a>
                                         <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
@@ -204,7 +204,7 @@ require 'navbar.php';
                                     Partie user et admin du site</p> -->
                                     <p class="card-text text-white h6"><small>Bootstrap 4, sal.js, HTML, CSS</small></p>
                                     <div class="row text-center">
-                                        <a class="card-github-link pt-2 col-6" href="" title="Github" target="_blank">
+                                        <a class="card-github-link pt-2 col-6" href="" title="Repo Github" target="_blank">
                                             <i class="fab fa-github fa-2x"></i>
                                         </a>
                                         <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
@@ -246,7 +246,7 @@ require 'navbar.php';
                                     Dashboard (graphes + calendrier)</p> -->
                                     <p class="card-text text-white h6"><small>Bootstrap 4, animate CSS, HTML, CSS, PHP, SQL</small></p>
                                     <div class="row text-center">
-                                        <a class="card-github-link pt-2 col-6" href="" title="Github" target="_blank">
+                                        <a class="card-github-link pt-2 col-6" href="" title="Repo Github" target="_blank">
                                             <i class="fab fa-github fa-2x"></i>
                                         </a>
                                         <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
@@ -288,7 +288,7 @@ require 'navbar.php';
                                     Tri et détail de chaque carte (appels d'API)</p> -->
                                     <p class="card-text text-white h6"><small>Bootstrap 5, Javascript, HTML, CSS</small></p>
                                     <div class="row text-center">
-                                        <a class="card-github-link pt-2 col-6" href="" title="Github" target="_blank">
+                                        <a class="card-github-link pt-2 col-6" href="" title="Repo Github" target="_blank">
                                             <i class="fab fa-github fa-2x"></i>
                                         </a>
                                         <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
