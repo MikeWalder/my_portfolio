@@ -137,7 +137,7 @@ require 'navbar.php';
                     <div class="row">
 
                         <div class="col-12 col-md-6 col-lg-3 mt-4">
-                            <div class="card bg-light" style="height: 400px;">
+                            <div class="card bg-light" style="height: 420px;">
                                 <div class="card-img-top rounded">
                                     <div id="carouselProject1" class="carousel slide" data-ride="carousel">
                                         <div class="carousel-inner" style="height: 320px;">
@@ -158,15 +158,23 @@ require 'navbar.php';
                                         </a>
                                     </div>
                                 </div>
-                                <div class="card-body text-dark pt-0 mb-0">
+                                <div class="card-body text-dark pt-0 mb-0" style="height: 100px;">
                                     <div class="text-center font-weight-bold h4 p-0 m-0">To Do List</div>
                                     <p class="card-text text-white h6"><small>Bootstrap 4, animate CSS, HTML, PHP, SQL</small></p>
+                                    <div class="row text-center">
+                                        <a class="card-github-link pt-2 col-6" href="" title="Github" target="_blank">
+                                            <i class="fab fa-github fa-2x"></i>
+                                        </a>
+                                        <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
+                                            <i class="fas fa-external-link-alt fa-2x"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 col-lg-3 mt-4">
-                            <div class="card bg-light" style="height: 400px;">
+                            <div class="card bg-light" style="height: 420px;">
                                 <div class="card-img-top rounded">
                                     <div id="carouselProject2" class="carousel slide text-center" data-ride="carousel">
                                         <div class="carousel-inner" style="height: 320px;">
@@ -190,17 +198,25 @@ require 'navbar.php';
                                         </a>
                                     </div>
                                 </div>
-                                <div class="card-body text-dark pt-0 mb-0" style="height: 150px;">
+                                <div class="card-body text-dark pt-0 mb-0" style="height: 100px;">
                                     <div class="text-center font-weight-bold h4 p-0 m-0">Burger Selection</div>
                                     <!-- <p class="card-text">Commande en ligne pour un fast food<br>
                                     Partie user et admin du site</p> -->
                                     <p class="card-text text-white h6"><small>Bootstrap 4, sal.js, HTML, CSS</small></p>
+                                    <div class="row text-center">
+                                        <a class="card-github-link pt-2 col-6" href="" title="Github" target="_blank">
+                                            <i class="fab fa-github fa-2x"></i>
+                                        </a>
+                                        <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
+                                            <i class="fas fa-external-link-alt fa-2x"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 col-lg-3 mt-4">
-                            <div class="card bg-light" style="height: 400px;">
+                            <div class="card bg-light" style="height: 420px;">
                                 <div class="card-img-top rounded">
                                     <div id="carouselProject3" class="carousel slide" data-ride="carousel">
                                         <div class="carousel-inner" style="height: 320px;">
@@ -229,20 +245,20 @@ require 'navbar.php';
                                     <!-- <p class="card-text">Ajouter, modifier, supprimer, trier images<br>
                                     Dashboard (graphes + calendrier)</p> -->
                                     <p class="card-text text-white h6"><small>Bootstrap 4, animate CSS, HTML, CSS, PHP, SQL</small></p>
-                                    <!-- <div class="row text-center">
-                                        <a class="card-github-link pt-2 col-6" href="https://github.com/MikeWalder" title="Github" target="_blank">
+                                    <div class="row text-center">
+                                        <a class="card-github-link pt-2 col-6" href="" title="Github" target="_blank">
                                             <i class="fab fa-github fa-2x"></i>
                                         </a>
-                                        <a class="card-github-link pt-2 col-6" href="https://github.com/MikeWalder" title="Github" target="_blank">
-                                            <i class="fab fa-github fa-2x"></i>
+                                        <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
+                                            <i class="fas fa-external-link-alt fa-2x"></i>
                                         </a>
-                                    </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 col-lg-3 mt-4">
-                            <div class="card bg-light" style="height: 400px;">
+                            <div class="card bg-light" style="height: 420px;">
                                 <div class="card-img-top rounded">
                                     <div id="carouselProject4" class="carousel slide" data-ride="carousel">
                                         <div class="carousel-inner" style="height: 320px;">
@@ -271,6 +287,14 @@ require 'navbar.php';
                                     <!-- <p class="card-text">Banque de données de cartes<br>
                                     Tri et détail de chaque carte (appels d'API)</p> -->
                                     <p class="card-text text-white h6"><small>Bootstrap 5, Javascript, HTML, CSS</small></p>
+                                    <div class="row text-center">
+                                        <a class="card-github-link pt-2 col-6" href="" title="Github" target="_blank">
+                                            <i class="fab fa-github fa-2x"></i>
+                                        </a>
+                                        <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
+                                            <i class="fas fa-external-link-alt fa-2x"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

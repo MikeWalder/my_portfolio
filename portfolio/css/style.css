@@ -196,6 +196,28 @@ section .heading h2 {
   color: #4da2ec;
 }
 
+.fa-github {
+  color: #999;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.fa-github:hover {
+  color: grey;
+  transform: scale(1.2);
+}
+
+.fa-external-link-alt {
+  color: #4da2ec;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.fa-external-link-alt:hover {
+  color: rgb(82, 124, 250);
+  transform: scale(1.2);
+}
+
 /* --- Projects part --- */
 
 #portfolio {
@@ -213,8 +235,16 @@ section .heading h2 {
   text-align: center;
 }
 
+.card {
+  position: relative;
+}
+
 .card, .card-img-top img {
   transition: all 0.4s ease-in-out;
+}
+
+.card:hover .fa-github, .card:hover .fa-external-link-alt {
+  opacity: 1;
 }
 
 .card-img-top img {

@@ -10,8 +10,6 @@ for(let i=0; i < cards.length; i++){
 
         cardBodies[i].classList.remove('text-dark');
         cardBodies[i].classList.add('text-white');
-
-        carouselInners[i].style.height = "280px";
     })
 
 
@@ -21,8 +19,6 @@ for(let i=0; i < cards.length; i++){
 
         cardBodies[i].classList.remove('text-white');
         cardBodies[i].classList.add('text-dark');
-
-        carouselInners[i].style.height = "320px";
     })
 
 }
