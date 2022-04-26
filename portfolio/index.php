@@ -140,7 +140,7 @@ require 'navbar.php';
                             <div class="card bg-light" style="height: 420px;">
                                 <div class="card-img-top rounded">
                                     <div id="carouselProject1" class="carousel slide" data-ride="carousel">
-                                        <div class="carousel-inner" style="height: 320px;">
+                                        <div class="carousel-inner border-bottom" style="height: 320px;">
                                             <div class="carousel-item active" data-interval="4000">
                                                 <img src="images/todolist1.JPG" alt="Affichage général" class="img-fluid" style="width: 100%; height: 320px;">
                                             </div>
@@ -162,7 +162,7 @@ require 'navbar.php';
                                     <div class="text-center font-weight-bold h4 p-0 m-0">To Do List</div>
                                     <p class="card-text text-white h6"><small>Bootstrap 4, animate CSS, HTML, PHP, SQL</small></p>
                                     <div class="row text-center">
-                                        <a class="card-github-link pt-2 col-6" href="" title="Repo Github" target="_blank">
+                                        <a class="card-github-link pt-2 col-6" href="https://github.com/MikeWalder/ToDoList-PHP" title="Repo Github" target="_blank">
                                             <i class="fab fa-github fa-2x"></i>
                                         </a>
                                         <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
@@ -177,15 +177,15 @@ require 'navbar.php';
                             <div class="card bg-light" style="height: 420px;">
                                 <div class="card-img-top rounded">
                                     <div id="carouselProject2" class="carousel slide text-center" data-ride="carousel">
-                                        <div class="carousel-inner" style="height: 320px;">
+                                        <div class="carousel-inner border-bottom" style="height: 320px;">
                                             <div class="carousel-item active" data-interval="4000">
-                                                <img src="images/burger.jpg" alt="Sélection de menus" class="img-fluid" style="width: 100%; height: 320px;">
+                                                <img src="images/VueJsCardShopping.PNG" alt="Page principale" class="img-fluid" style="width: 100%; height: 320px;">
                                             </div>
                                             <div class="carousel-item" data-interval="4000">
-                                                <img src="images/burger2.jpg" alt="Partie administration" class="img-fluid" style="width: 100%; height: 320px;">
+                                                <img src="images/vue_shop_panier.JPG" alt="Panier" class="img-fluid" style="width: 100%; height: 320px;">
                                             </div>
                                             <div class="carousel-item" data-interval="4000">
-                                                <img src="images/burger3.jpg" alt="Modifier un produit" class="img-fluid" style="width: 100%; height: 320px;">
+                                                <img src="images/vue_shop_favorites.JPG" alt="Favoris" class="img-fluid" style="width: 100%; height: 320px;">
                                             </div>
                                         </div>
                                         <a class="carousel-control-prev" href="#carouselProject2" role="button" data-slide="prev">
@@ -199,12 +199,12 @@ require 'navbar.php';
                                     </div>
                                 </div>
                                 <div class="card-body text-dark pt-0 mb-0" style="height: 100px;">
-                                    <div class="text-center font-weight-bold h4 p-0 m-0">Burger Selection</div>
+                                    <div class="text-center font-weight-bold h4 p-0 m-0">FeedAstic</div>
                                     <!-- <p class="card-text">Commande en ligne pour un fast food<br>
                                     Partie user et admin du site</p> -->
-                                    <p class="card-text text-white h6"><small>Bootstrap 4, sal.js, HTML, CSS</small></p>
+                                    <p class="card-text text-white h6"><small>Vue JS, JavaScript, Bootstrap 5</small></p>
                                     <div class="row text-center">
-                                        <a class="card-github-link pt-2 col-6" href="" title="Repo Github" target="_blank">
+                                        <a class="card-github-link pt-2 col-6" href="https://github.com/MikeWalder/shop-components-vue" title="Repo Github" target="_blank">
                                             <i class="fab fa-github fa-2x"></i>
                                         </a>
                                         <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
@@ -219,15 +219,15 @@ require 'navbar.php';
                             <div class="card bg-light" style="height: 420px;">
                                 <div class="card-img-top rounded">
                                     <div id="carouselProject3" class="carousel slide" data-ride="carousel">
-                                        <div class="carousel-inner" style="height: 320px;">
+                                        <div class="carousel-inner border-bottom" style="height: 320px;">
                                             <div class="carousel-item active" data-interval="4000">
-                                                <img src="images/img-selection.JPG" alt="Website" class="img-fluid" style="width: 100%; height: 320px;">
+                                                <img src="images/gallery_selection.JPG" alt="Website" class="img-fluid" style="width: 100%; height: 320px;">
                                             </div>
                                             <div class="carousel-item" data-interval="4000">
-                                                <img src="images/img-modification.JPG" alt="Modification d'image" class="img-fluid" style="width: 100%; height: 320px;">
+                                                <img src="images/gallery_modification.JPG" alt="Modification d'image" class="img-fluid" style="width: 100%; height: 320px;">
                                             </div>
                                             <div class="carousel-item" data-interval="4000">
-                                                <img src="images/img-galery-dashboard.JPG" alt="Galerie d'images" class="img-fluid" style="width: 100%; height: 320px;">
+                                                <img src="images/gallery_dashboard.JPG" alt="Galerie d'images" class="img-fluid" style="width: 100%; height: 320px;">
                                             </div>
                                         </div>
                                         <a class="carousel-control-prev" href="#carouselProject3" role="button" data-slide="prev">
@@ -246,7 +246,7 @@ require 'navbar.php';
                                     Dashboard (graphes + calendrier)</p> -->
                                     <p class="card-text text-white h6"><small>Bootstrap 4, animate CSS, HTML, CSS, PHP, SQL</small></p>
                                     <div class="row text-center">
-                                        <a class="card-github-link pt-2 col-6" href="" title="Repo Github" target="_blank">
+                                        <a class="card-github-link pt-2 col-6" href="https://github.com/MikeWalder/Images-Galery-PHP" title="Repo Github" target="_blank">
                                             <i class="fab fa-github fa-2x"></i>
                                         </a>
                                         <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
@@ -261,7 +261,7 @@ require 'navbar.php';
                             <div class="card bg-light" style="height: 420px;">
                                 <div class="card-img-top rounded">
                                     <div id="carouselProject4" class="carousel slide" data-ride="carousel">
-                                        <div class="carousel-inner" style="height: 320px;">
+                                        <div class="carousel-inner border-bottom" style="height: 320px;">
                                             <div class="carousel-item active" data-interval="4000">
                                                 <img src="images/API_ygo_1.PNG" alt="Website" class="img-fluid" style="width: 100%; height: 320px;">
                                             </div>
@@ -288,7 +288,7 @@ require 'navbar.php';
                                     Tri et détail de chaque carte (appels d'API)</p> -->
                                     <p class="card-text text-white h6"><small>Bootstrap 5, Javascript, HTML, CSS</small></p>
                                     <div class="row text-center">
-                                        <a class="card-github-link pt-2 col-6" href="" title="Repo Github" target="_blank">
+                                        <a class="card-github-link pt-2 col-6" href="https://github.com/MikeWalder/YGO-database-JS-API" title="Repo Github" target="_blank">
                                             <i class="fab fa-github fa-2x"></i>
                                         </a>
                                         <a class="card-github-link pt-2 col-6" href="" title="Lien externe" target="_blank">
